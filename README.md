@@ -14,21 +14,16 @@ This system provides a fast, reliable, and user-friendly solution for digital pa
 
 ## 🚀 Features
 
-✅ Real-Time UPI Payment Alerts
-
-✅ Instant Amount Display on LCD
-
-✅ Buzzer Notification System
-
-✅ ESP32 WiFi Connectivity
-
-✅ Fast Transaction Verification
-
-✅ Easy Installation
-
-✅ Low-Cost Implementation
-
-✅ Suitable for Small Businesses
+Real-Time UPI Payment Alert
+Automatic Amount Extraction from Payment Message
+LCD Amount Display
+Buzzer Notification System
+Total Collection Tracking
+Transaction Counter
+Last Payment Display
+WiFi-Based Operation
+Web Server Monitoring
+Reset Function Support
 
 ---
 
@@ -48,34 +43,41 @@ This system provides a fast, reliable, and user-friendly solution for digital pa
 
 ## 💻 Technologies Used
 
-- ESP32 Microcontroller
-- Embedded C
-- IoT System Design
-- Real-Time Monitoring
-- LCD Interfacing
-- Payment Alert Processing
-
+ESP32 Microcontroller
+Embedded C Programming
+IoT System Design
+Web Server Communication
+LCD Interfacing
+WiFi Connectivity
+Payment Data Processing
+Real-Time Monitoring
 ---
 
 ## ⚙ Working Principle
 
 ### Step 1
-ESP32 connects to the WiFi network.
+ESP32 connects to a WiFi network.
 
 ### Step 2
-The payment notification is received from the configured payment service.
+Payment messages are received through the web server.
 
 ### Step 3
-ESP32 extracts the payment amount.
+The system extracts the transaction amount automatically.
 
 ### Step 4
-The received amount is displayed on the LCD screen.
+The amount is added to the total collection.
 
 ### Step 5
-The buzzer generates an alert sound.
+Transaction count is updated.
 
 ### Step 6
-The shop owner verifies the payment instantly.
+The latest payment amount is displayed on the LCD.
+
+### Step 7
+The buzzer generates an alert notification.
+
+### Step 8
+Users can monitor payment status and transaction details in real time.
 
 ---
 
